@@ -25,15 +25,6 @@ namespace CoreBusiness.Entidades
             Observacao = observacao;
         }
 
-        public Funcionario(Guid id, string nome, int idade, string sexo, string cargo, string observacao)
-        {
-            Id = id;
-            Nome = nome;
-            Idade = idade;
-            Sexo = sexo;
-            Cargo = cargo;
-            Observacao = observacao;
-        }
 
         [Required]
         [PrimaryKey, AutoIncrement]
@@ -48,5 +39,6 @@ namespace CoreBusiness.Entidades
         public string? Observacao { get; set; }
 
 
-    }
+    }   
 }
+
